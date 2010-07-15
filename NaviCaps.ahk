@@ -13,8 +13,8 @@ e::Up
 s::Left
 d::Down
 f::Right
-r::Home
-w::End
+w::Home
+r::End
 q::PgUp
 a::PgDn
 
