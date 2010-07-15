@@ -9,20 +9,20 @@ Suspend On
 
 ; LEFT HAND (cursors style)
 
-e::Up
-s::Left
-d::Down
-f::Right
-w::Home
-r::End
-q::PgUp
-a::PgDn
+w::Up
+a::Left
+s::Down
+d::Right
+q::Home
+e::End
+r::PgUp
+f::PgDn
 
-z::AppsKey
+g::AppsKey
 
-x::Backspace
-c::Delete
-v::Enter
+z::Backspace
+x::Delete
+c::Enter
 
 ; RIGHT HAND (vim style)
 j::Left
@@ -36,7 +36,8 @@ m::PgUp
 
 p::Delete
 
-Alt::Ctrl
+LAlt::Ctrl
+RAlt::Shift
 
 CapsLock::Suspend Off
 CapsLock Up::Suspend On
