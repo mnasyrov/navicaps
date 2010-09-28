@@ -5,39 +5,40 @@
 #NoEnv
 #MaxHotkeysPerInterval 2000
 
-Suspend On
+SetCapsLockState, AlwaysOff
+ScrollLock::Capslock
+
 
 ; LEFT HAND (cursors style)
 
-w::Up
-a::Left
-s::Down
-d::Right
-q::Home
-e::End
-r::PgUp
-f::PgDn
+CapsLock & w::Send {Up}
+CapsLock & a::Send {Left}
+CapsLock & s::Send {Down}
+CapsLock & d::Send {Right}
+CapsLock & q::Send {Home}
+CapsLock & e::Send {End}
+CapsLock & r::Send {PgUp}
+CapsLock & f::Send {PgDn}
 
-g::AppsKey
+CapsLock & g::Send {AppsKey}
 
-z::Backspace
-x::Delete
-c::Enter
+CapsLock & z::Send {Backspace}
+CapsLock & x::Send {Delete}
+CapsLock & c::Send {Enter}
+
 
 ; RIGHT HAND (vim style)
-j::Left
-k::Down
-l::Up
-`;::Right
-u::Home
-i::End
-m::PgUp
-,::PgDn
 
-p::Delete
+CapsLock & j::Send {Left}
+CapsLock & k::Send {Down}
+CapsLock & l::Send {Up}
+CapsLock & `;::Send {Right}
+CapsLock & u::Send {Home}
+CapsLock & i::Send {End}
+CapsLock & m::Send {PgUp}
+CapsLock & ,::Send {PgDn}
 
-LAlt::Ctrl
-RAlt::Shift
+CapsLock & p::Send {Delete}
 
-CapsLock::Suspend Off
-CapsLock Up::Suspend On
+CapsLock & LAlt::Send {Ctrl}
+CapsLock & RAlt::Send {Shift}
