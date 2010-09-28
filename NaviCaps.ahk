@@ -4,6 +4,7 @@
 #SingleInstance
 #NoEnv
 #MaxHotkeysPerInterval 2000
+#UseHook  
 
 SetCapsLockState, AlwaysOff
 ScrollLock::Capslock
