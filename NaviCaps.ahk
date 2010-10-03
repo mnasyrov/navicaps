@@ -7,39 +7,40 @@
 #UseHook  
 
 SetCapsLockState, AlwaysOff
-ScrollLock::Capslock
+Suspend On
 
 
 ; LEFT HAND (cursors style)
 
-CapsLock & w::Send {Up}
-CapsLock & a::Send {Left}
-CapsLock & s::Send {Down}
-CapsLock & d::Send {Right}
-CapsLock & q::Send {Home}
-CapsLock & e::Send {End}
-CapsLock & r::Send {PgUp}
-CapsLock & f::Send {PgDn}
+w::Up
+a::Left
+s::Down
+d::Right
+q::Home
+e::End
+r::PgUp
+f::PgDn
 
-CapsLock & g::Send {AppsKey}
+g::AppsKey
 
-CapsLock & z::Send {Backspace}
-CapsLock & x::Send {Delete}
-CapsLock & c::Send {Enter}
-
+z::Backspace
+x::Delete
+c::Enter
 
 ; RIGHT HAND (vim style)
+j::Left
+k::Down
+l::Up
+`;::Right
+u::Home
+i::End
+m::PgUp
+,::PgDn
 
-CapsLock & j::Send {Left}
-CapsLock & k::Send {Down}
-CapsLock & l::Send {Up}
-CapsLock & `;::Send {Right}
-CapsLock & u::Send {Home}
-CapsLock & i::Send {End}
-CapsLock & m::Send {PgUp}
-CapsLock & ,::Send {PgDn}
+p::Delete
 
-CapsLock & p::Send {Delete}
+LAlt::Ctrl
+RAlt::Shift
 
-CapsLock & LAlt::Send {Ctrl}
-CapsLock & RAlt::Send {Shift}
+CapsLock::Suspend Off
+CapsLock Up::Suspend On
