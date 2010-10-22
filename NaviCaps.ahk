@@ -28,13 +28,13 @@ x::Delete
 c::Enter
 
 ; RIGHT HAND (vim style)
-j::Left
-k::Down
-l::Up
-`;::Right
+h::Left
+j::Down
+k::Up
+l::Right
 u::Home
-i::End
-m::PgUp
+o::End
+i::PgUp
 ,::PgDn
 
 p::Delete
