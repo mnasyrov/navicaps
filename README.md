@@ -6,6 +6,8 @@ Keyboard remapper which uses CapsLock to enable vim-like navigation. Windows onl
 
 The remapping is active when CapsLock is pressed. Classic CapsLock behavior can be turned on/of by Alt+CapsLock shortcut.
 
+Download binary releases [here](https://bintray.com/mnasyrov/generic/navicaps).
+
 
 ## Key map for 1.0.5 version
 
