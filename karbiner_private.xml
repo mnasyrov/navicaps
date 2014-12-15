@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>F19 to Hyper Modifier</name>
+		<appendix>(F19 to Hyper (ctrl+shift+cmd+opt) + F19 Only, send escape)</appendix>
+		<identifier>private.f19_hack-modifier_esacape</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F19,
+			KeyCode::COMMAND_L,
+			ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+		</autogen>
+	</item>
+
+	<!-- Left hand -->
+	<item>
+		<name>Hyper + W</name>
+		<identifier>private.hyper_and_W</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::W,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_UP
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + A</name>
+		<identifier>private.hyper_and_A</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::A,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_LEFT
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + S</name>
+		<identifier>private.Hyper_and_S</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::S,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_DOWN
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + D</name>
+		<identifier>private.hyper_and_D</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::D,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_RIGHT
+		</autogen>
+	</item>
+	
+	
+	<item>
+		<name>Hyper + Q</name>
+		<identifier>private.hyper_and_Q</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::Q,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::HOME
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + E</name>ndix>
+		<identifier>private.hyper_and_E</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::E,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::END
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + R</name>
+		<identifier>private.hyper_and_R</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::R,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::PAGEUP
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + F</name>ndix>
+		<identifier>private.hyper_and_F</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::F,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::PAGEDOWN
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + C</name>ndix>
+		<identifier>private.hyper_and_C</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::C,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::ENTER
+		</autogen>
+	</item>
+
+
+
+
+	<!-- Right hand -->
+	<item>
+		<name>Hyper + H</name>
+		<identifier>private.hyper_and_H</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::H,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_LEFT
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + J</name>
+		<identifier>private.Hyper_and_J</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::J,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_DOWN
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + K</name>
+		<identifier>private.hyper_and_K</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::K,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_UP
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + L</name>
+		<identifier>private.hyper_and_L</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::L,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::CURSOR_RIGHT
+		</autogen>
+	</item>
+	
+	<item>
+		<name>Hyper + U</name>
+		<identifier>private.hyper_and_U</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::U,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::HOME
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + O</name>ndix>
+		<identifier>private.hyper_and_O</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::O,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::END
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + I</name>
+		<identifier>private.hyper_and_I</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::I,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::PAGEUP
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + ,</name>ndix>
+		<identifier>private.hyper_and_COMMA</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::COMMA,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::PAGEDOWN
+		</autogen>
+	</item>
+	<item>
+		<name>Hyper + P</name>ndix>
+		<identifier>private.hyper_and_P</identifier>
+		<autogen>
+			--KeyOverlaidModifier--
+			KeyCode::P,
+			ModifierFlag::COMMAND_L | ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L,
+			KeyCode::DELETE
+		</autogen>
+	</item>
+	
+
+</root>
